@@ -1,0 +1,30 @@
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.group-list {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: grid;
+    place-items: center;
+    gap: 16px;
+}
+.todo {
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 12px;
+    width: 50%;
+    margin: 1% 0;
+    padding: 16px;
+    text-align: justify;
+}
+
+li {
+    font-size: large;
+    font-family: 'Roboto';
+    padding: 16px;
+    margin: 0 5%;
+    line-height: 2em;
+    list-style: square;
+}
